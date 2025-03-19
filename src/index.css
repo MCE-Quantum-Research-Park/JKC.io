@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Lustria&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gloock";
+  src: url("./assets/fonts/Gloock-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lustria";
+  src: url("./assets/fonts/Lustria-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Flawless";
+  src: url("./assets/fonts/FlawlessPersonalUseOnly-j9RKl.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Quakiez";
+  src: url("./assets/fonts/QuakiezDisplay-DO0Md.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AimaDisplay";
+  src: url("./assets/fonts/AimaDisplayRegular-EalYn.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RamusBold";
+  src: url("./assets/fonts/RamusBold-ZVPq8.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@theme {
+  --font-poppins: Poppins, "sans-serif";
+  --font-gloock: Gloock, "sans-serif";
+  --font-lustria: Lustria, "sans-serif";
+  --font-flawless: Flawless, "sans-serif";
+  --font-quakiez: Quakiez, "sans-serif";
+  --font-aimdisplay: AimaDisplay, "sans-serif";
+  --font-ramusbold: RamusBold, "sans-serif";
+  --color-primary: #0F4C75;
+  --color-secondary: #BBE1FA;
+  --color-tertiary: #eeeeee;
+  --color-fourth: #3282B8;
+}
