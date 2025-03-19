@@ -12,7 +12,7 @@ function Hero() {
       <div className=" relative z-10">
         <Header />
         <div>
-          <h1 className=" text-secondary  leading-none font-ramusbold  text-center text-[300px] ">
+          <h1 className=" cursor-pointer text-secondary  leading-none font-ramusbold  text-center text-[300px] ">
             JKC
           </h1>
           <p className=" font-lustria text-tertiary right-96 text-[20px] pb-5">

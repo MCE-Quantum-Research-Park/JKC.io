@@ -1,11 +1,13 @@
 const document = [
   {
     id: "install",
+    mheading: "Getting started",
     heading: " Installation",
     code: `npm i name`,
   },
   {
     id: "keyGen",
+    mheading: "Use",
     heading: "Key Generation",
     code: `import { generateKeyPair} from name;
 
@@ -38,6 +40,7 @@ const payload = await decode(token);`,
   },
   {
     id: "dilithium",
+    mheading: "Algorithm",
     heading: "Dilithium",
     content: [
       {

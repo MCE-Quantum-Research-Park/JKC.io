@@ -4,6 +4,7 @@ import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { GoCopy } from "react-icons/go";
 import { FaCheck } from "react-icons/fa";
 import document from "../data/DocData";
+import { p } from "framer-motion/m";
 
 function Docs() {
   const [copy, setCopy] = useState(false);
@@ -14,6 +15,7 @@ function Docs() {
       <div>
         {document.map((item, index) => (
           <div id={`${item.id}`} key={index}>
+            {item.mheading ?<p className=" font-lustria text-xl text-sky-500 my-3">{item.mheading}</p> : ""}
             <h2 className="font-poppins ml-2 text-primary font-semibold my-5 tracking-wide text-3xl">
               {item.heading}
             </h2>
