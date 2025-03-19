@@ -68,14 +68,14 @@ function Docs() {
                             <p className=" ml-4.5 my-2 font-semibold text-primary font-poppins text-lg">
                               - {item2.point}
                             </p>
-                            <p className=" ml-8 my-2 text-fourth font-poppins">
+                            <p className=" ml-8 text-lg my-2 text-fourth font-poppins">
                               {item2.body}
                             </p>
                           </div>
                         ))}
                       </div>
                     ) : (
-                      <p className=" ml-4.5 my-2 font-poppins text-fourth">
+                      <p className=" ml-4.5 text-lg my-2 font-poppins text-fourth">
                         {item1.body}
                       </p>
                     )}
